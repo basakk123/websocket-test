@@ -9,7 +9,7 @@ import dto.Message;
 import dto.ResponseMessage;
 
 @Controller
-public class WebSockectController {
+public class MessageController {
 	
 	@MessageMapping("/message")
 	@SendTo("/topic/messages")
